@@ -15,7 +15,7 @@ To create an understandable sentence that compiles to a valid output.
 
 | Character     | Meaning                                                      |
 | ------------- | ------------------------------------------------------------ |
-| Any character | Increment or decrement the data value by it's corresponding ASCII value. |
+| Any character | Increment or decrement the data value by it's corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value. |
 | ,             | Toggle from increment to decrement mode, or wise versa.      |
 | .             | Print the corresponding data value's ASCII character to screen. And reset the value to 0. |
 | '[variable]'  | Add the value of *variable* to the data value.               |
