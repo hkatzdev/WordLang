@@ -3,7 +3,9 @@
 
 ## Background
 
-WordLang is an ...
+WordLang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language), which means it's ... totally useless, kind of. BUT! It's a challenge for geeky or bored developers.
+
+You can find similar languages on [https://esolangs.org/](https://esolangs.org/wiki/Language_list)!
 
 ## The Challenge
 
