@@ -11,6 +11,11 @@ You can find similar languages on [https://esolangs.org/](https://esolangs.org/w
 
 To create an understandable sentence that compiles to a valid output.
 
+Would it even be possible to create a Polyquine compatible with WordLang? How to [Write a Polyquine](https://codegolf.stackexchange.com/questions/37464/write-a-polyquine).
+
+* [The Ideas of Quine (1977)](https://www.youtube.com/watch?v=B2fLyvsHHaQ)
+* [Five Quines by Andy Balaam](https://www.youtube.com/watch?v=JQ_Fylah0Cg)
+
 ## Grammar
 
 | Character     | Meaning                                                      |
