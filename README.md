@@ -35,7 +35,11 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | \\[escaped]   | Any special character is escaped using `\`.                  |
 | ?             | Print debug information about the current data value at a given position |
 
+### Variables
 When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
+
+### Data Value
+The data value is exacly one byte in size, which means that `abc` becomes `'`.
 
 ## Other
 
