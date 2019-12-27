@@ -39,7 +39,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
 
 ### Data Value
-The data value is exacly one byte in size, which means that `abc` becomes `'`.
+The data value is a double (±5.0×10<sup>−324</sup> to ±1.7×10<sup>308</sup>,	8 bytes), which means that `abc` becomes `'`.
 
 ## Other
 
