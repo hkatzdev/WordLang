@@ -31,8 +31,10 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | [name]!       | Jump back to the named point.                                |
 | - [name]      | Create a named point that is possible to jump back to.       |
 | "[comment]"   | Comment.                                                     |
-| [space/tab]   | Ignored.                                                     |
+| [space/tab/newline]   | Ignored.                                                     |
 | \\[escaped]   | Any special character is escaped using `\`.                  |
+
+When assigning variables, use a blank space to mark the end of a variable name. Ex: `>VAR`
 
 ## Other
 
