@@ -5,7 +5,7 @@
 
 WordLang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language), which means it's ... totally useless, kind of. BUT! It's a challenge for geeky or bored developers.
 
-The idea originated from BrainFuck, with the twist that each character increases the data's value by its corresponding ASCII value instead of the "+", "-" characters in BrainFuck for instance.
+The idea originated from BrainFuck, with the twist that each character increases the data's value by its corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value instead of the "+", "-" characters in BrainFuck for instance.
 
 You can find similar languages on [https://esolangs.org/](https://esolangs.org/wiki/Language_list)!
 
