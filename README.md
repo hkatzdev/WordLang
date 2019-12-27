@@ -33,6 +33,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | "[comment]"   | Comment.                                                     |
 | [space/tab/newline]   | Ignored.                                                     |
 | \\[escaped]   | Any special character is escaped using `\`.                  |
+| ?             | Print debug information about the current data value at a given position |
 
 When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
 
