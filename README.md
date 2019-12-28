@@ -25,7 +25,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | Any character | Increment or decrement the data value by it's corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value. |
 | ,             | Toggle from increment to decrement mode, or vice versa. |
 | .             | Print the corresponding data value's ASCII character to screen and reset the data value to 0. |
-| '[variable]'  | Add the value of *variable* to the data value.               |
+| '[variable]'  | Add or subtract the data value depending on the value of *variable* and the current mode.               |
 | \>[variable]  | Set the value of *variable* to the current data value and reset the data value to 0.       |
 | <             | Read a one character input and add it to the data value.     |
 | - [name]      | Create a named point that is possible to jump back to.       |
