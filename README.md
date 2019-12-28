@@ -71,14 +71,16 @@ Result is: `;`
 ### 2. Input
 
 ```
-I.=.<>I
-I.=.'I'.
+I.=.<>I		"Read and store input in I"
+:,0.,		"Newline"
+I.=.'I'.	"Read and write value of I"
 ```
 
-This example defeats the purpose of WordLang, the point is that every sentence should be readable. But is for the sake of understanding.
+This example defeats the purpose of WordLang, the point is that every sentence should be readable. But this is just for the sake of understanding.
 
 1. Print the text "I="
 2. Read the input value
 3. Store it in the variable I
-4. Print the text "I="
-5. Print the value of I
+4. Write a newline character
+5. Print the text "I="
+6. Print the value of I
