@@ -8,13 +8,15 @@ namespace WordLang
     {
         static void Main(string[] args)
         {
-            args = new[] { "test.wl" };
+            ColorConsole.ConsoleWriter CConsole = new ColorConsole.ConsoleWriter();
+            //args = new[] { "test.wl" };
 
-            Arguments a = Arguments.Parse(args);
+            Arguments a = Arguments.Parse(args, (char)KeySelector.CrossPlatformCompatible);
 
             if (a.Keyless.Count > 0)
             {
                 bool debug = a.ContainsKey("d");
+                bool comments = debug; // a.ContainsKey("c");
 
                 for (int i = 0; i < a.Keyless.Count; i++)
                 {
@@ -22,9 +24,14 @@ namespace WordLang
                     {
                         if (a[i].ToLower().EndsWith(".wl") || a[i].ToLower().EndsWith(".w"))
                         {
-                            new Interpreter(a[i]).Interpret();
+                            if (a.Keyless.Count > 1)
+                            {
+                                if (i != 0) Console.Write('\n');
+                                CConsole.WriteLine($"==== {a[i].Split('\\')[a[i].Split('\\').Length - 1]} ====", ConsoleColor.Yellow);
+                            }
+                            new Interpreter(a[i]).Interpret(debug, comments);
 
-                            Console.ReadLine(); // Pause
+                            // Console.ReadKey(true); // Pause
                         }
                         else Console.WriteLine($"The file: '{a[i]}' is not a WordLang file!");
                     }

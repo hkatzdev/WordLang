@@ -354,3 +354,4 @@ MigrationBackup/
 WordLang/build_exe.bat
 WordLang/input.wl
 WordLang/test.wl
+WordLang/hamlet.wl
