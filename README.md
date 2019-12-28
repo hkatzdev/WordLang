@@ -12,7 +12,7 @@ Here's a good [ASCII table](https://www.asciitabell.se/).
 ## Background
 
 WordLang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language), which means it's ... totally useless, kind of.
-BUT! It's a challenge for highly intelligent geeky/bored developers, if don't feel like one, WordLang will most likely make you one.
+BUT! It's a challenge for highly intelligent geeky/bored [hackers](https://en.wikipedia.org/wiki/Hacker_culture), if don't feel like one, WordLang will most likely make you one.
 
 The idea originated from [Brainfuck](https://sv.wikipedia.org/wiki/Brainfuck), with the twist that each character increases the data's value by its corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value instead of the "+", "-" characters in Brainfuck for instance.
 
@@ -22,7 +22,7 @@ You can find similar languages on [https://esolangs.org/](https://esolangs.org/w
 
 To create an understandable sentence that compiles to a valid output.
 
-Would it even be possible to create a Polyquine compatible with WordLang? How to [Write a Polyquine](https://codegolf.stackexchange.com/questions/37464/write-a-polyquine).
+Would it even be possible to create a [Quine](https://esolangs.org/wiki/Quine) or Polyquine compatible with WordLang? How to [Write a Polyquine](https://codegolf.stackexchange.com/questions/37464/write-a-polyquine).
 
 * [The Ideas of Quine (1977)](https://www.youtube.com/watch?v=B2fLyvsHHaQ)
 * [Five Quines by Andy Balaam](https://www.youtube.com/watch?v=JQ_Fylah0Cg)
