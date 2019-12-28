@@ -39,7 +39,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
 
 ### Data Value
-The data value is a double (±5.0×10<sup>−324</sup> to ±1.7×10<sup>308</sup>,	8 bytes).
+The data value is of type [double](https://docs.microsoft.com/en-us/dotnet/api/system.double) (±5.0×10<sup>−324</sup> to ±1.7×10<sup>308</sup>,	8 bytes). Read more about [floating-point numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types).
 
 Everytime it's ASCII value is printed (using `.`), the value is modulated by 255 (The max size of an ASCII character) which means that `abc` becomes `'` (97 + 98 + 99 = 294 → 294 mod(255) = 39 = `'` ) even though **the data value is still 294**.
 
