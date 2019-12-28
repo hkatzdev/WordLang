@@ -24,15 +24,24 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | ------------- | ------------------------------------------------------------ |
 | Any character | Increment or decrement the data value by it's corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value. |
 | ,             | Toggle from increment to decrement mode, or wise versa.      |
-| .             | Print the corresponding data value's ASCII character to screen. And reset the value to 0. |
+| .             | Print the corresponding data value's ASCII character to screen and reset the data value to 0. |
 | '[variable]'  | Add the value of *variable* to the data value.               |
-| \>[variable]  | Set the value of *variable* to the current data value.       |
+| \>[variable]  | Set the value of *variable* to the current data value and reset the data value to 0.       |
 | <             | Read a one character input and add it to the data value.     |
-| [name]!       | Jump back to the named point.                                |
 | - [name]      | Create a named point that is possible to jump back to.       |
+| [name]!       | Jump back to a named point.                                  |
 | "[comment]"   | Comment.                                                     |
-| [space/tab]   | Ignored.                                                     |
+| [space/tab/newline]   | Ignored.                                                     |
 | \\[escaped]   | Any special character is escaped using `\`.                  |
+| ?             | Print debug information about the current data value at a given position |
+
+### Variables
+When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
+
+### Data Value
+The data value is of type [double](https://docs.microsoft.com/en-us/dotnet/api/system.double) (±5.0×10<sup>−324</sup> to ±1.7×10<sup>308</sup>,	8 bytes). Read more about [floating-point numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types).
+
+Everytime it's ASCII value is printed (using `.`), the value is modulated by 255 (The max size of an ASCII character) which means that `abc` becomes `'` (97 + 98 + 99 = 294 → 294 mod(255) = 39 = `'` ) even though **the data value is still 294**.
 
 ## Other
 
@@ -48,6 +57,8 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 Helloo, world. :3
 ```
 
+Result is: `;`
+
 1. H = 72 → Increment the data value to 72
 2. e = 101 → Increment the data value to 173
 3. ...
@@ -57,19 +68,26 @@ Helloo, world. :3
 7. ...
 8. . → Print the character of the data value to screen
 
-Result is: `;`
-
 ### 2. Input
 
 ```
-I.=.<>I
-I.=.'I'.
+I.=.<>I		"Read and store input in I"
+:,0.,		"Newline"
+I.=.'I'.	"Read and write value of I"
 ```
 
-This example defeats the purpose of WordLang, the point is that every sentence should be readable. But is for the sake of understanding.
+Result is:
+```
+I=[CHAR]
+I=[CHAR]
+```
+Where `[CHAR]` is an arbitrary character of choice.
+
+This example defeats the purpose of WordLang, the point is that every sentence should be readable. But this is just for the sake of understanding.
 
 1. Print the text "I="
 2. Read the input value
 3. Store it in the variable I
-4. Print the text "I="
-5. Print the value of I
+4. Write a newline character
+5. Print the text "I="
+6. Print the value of I
