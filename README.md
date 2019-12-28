@@ -57,6 +57,8 @@ Everytime it's ASCII value is printed (using `.`), the value is modulated by 255
 Helloo, world. :3
 ```
 
+Result is: `;`
+
 1. H = 72 → Increment the data value to 72
 2. e = 101 → Increment the data value to 173
 3. ...
@@ -66,8 +68,6 @@ Helloo, world. :3
 7. ...
 8. . → Print the character of the data value to screen
 
-Result is: `;`
-
 ### 2. Input
 
 ```
@@ -75,6 +75,13 @@ I.=.<>I		"Read and store input in I"
 :,0.,		"Newline"
 I.=.'I'.	"Read and write value of I"
 ```
+
+Result is:
+```
+I=[CHAR]
+I=[CHAR]
+```
+Where `[CHAR]` is an arbitrary character of choice.
 
 This example defeats the purpose of WordLang, the point is that every sentence should be readable. But this is just for the sake of understanding.
 
