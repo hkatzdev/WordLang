@@ -1,6 +1,7 @@
 # WordLang
  A weird programming language based on words.
  
+ ![GitHub](https://img.shields.io/github/license/WilliamRagstad/WordLang)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/WilliamRagstad/WordLang) 
 ![GitHub All Releases](https://img.shields.io/github/downloads/WilliamRagstad/WordLang/total)
 
