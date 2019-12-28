@@ -21,7 +21,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 ## Grammar
 
 | Character     | Meaning                                                      |
-| ------------- | ------------------------------------------------------------ |
+| :-----------: | :----------------------------------------------------------- |
 | Any character | Increment or decrement the data value by it's corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value. |
 | ,             | Toggle from increment to decrement mode, or vice versa. |
 | .             | Print the corresponding data value's ASCII character to screen and reset the data value to 0. |
@@ -37,6 +37,8 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 
 ### Variables
 When assigning variables, use a blank space to mark the end of a variable name. Ex: `>Var is a`... Now the current data value will be stored in `Var`.
+
+Variables are stored as doubles, just as the data value. Read more about the double type below... 
 
 ### Data Value
 The data value is of type [double](https://docs.microsoft.com/en-us/dotnet/api/system.double) (±5.0×10<sup>−324</sup> to ±1.7×10<sup>308</sup>,	8 bytes). Read more about [floating-point numeric types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types).
