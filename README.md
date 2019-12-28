@@ -23,7 +23,7 @@ Would it even be possible to create a Polyquine compatible with WordLang? How to
 | Character     | Meaning                                                      |
 | ------------- | ------------------------------------------------------------ |
 | Any character | Increment or decrement the data value by it's corresponding [ASCII](https://en.wikipedia.org/wiki/ASCII) value. |
-| ,             | Toggle from increment to decrement mode, or wise versa.      |
+| ,             | Toggle from increment to decrement mode, or vice versa. |
 | .             | Print the corresponding data value's ASCII character to screen and reset the data value to 0. |
 | '[variable]'  | Add the value of *variable* to the data value.               |
 | \>[variable]  | Set the value of *variable* to the current data value and reset the data value to 0.       |
@@ -57,7 +57,7 @@ Everytime it's ASCII value is printed (using `.`), the value is modulated by 255
 Helloo, world. :3
 ```
 
-Result is: `;`
+Output: `;`
 
 1. H = 72 → Increment the data value to 72
 2. e = 101 → Increment the data value to 173
@@ -76,14 +76,14 @@ I.=.<>I		"Read and store input in I"
 I.=.'I'.	"Read and write value of I"
 ```
 
-Result is:
+Output:
 ```
 I=[CHAR]
 I=[CHAR]
 ```
 Where `[CHAR]` is an arbitrary character of choice.
 
-This example defeats the purpose of WordLang, the point is that every sentence should be readable. But this is just for the sake of understanding.
+This example defeats the purpose of WordLang in a way, the point is that every *sentence* should be readable text. But now it's just for the sake of understanding.
 
 1. Print the text "I="
 2. Read the input value
