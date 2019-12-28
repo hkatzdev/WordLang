@@ -1,6 +1,8 @@
 # WordLang
  A weird programming language based on words.
 
+Here's [a good ASCII table](https://www.asciitabell.se/).
+
 ## Background
 
 WordLang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language), which means it's ... totally useless, kind of.
