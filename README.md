@@ -9,6 +9,8 @@
 
 Here's a good [ASCII table](https://www.asciitabell.se/).
 
+## [Read the Wiki](https://esolangs.org/wiki/WordLang)
+
 ## Background
 
 WordLang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language), which means it's ... totally useless, kind of.
@@ -62,10 +64,6 @@ Every time the ASCII character of the data value is printed *(using `.`)*, the v
 | Subject         | Description |
 | --------------- | ----------- |
 | File extensions | .w, .wl     |
-
-## Wiki
-<blockquote class="embedly-card"><h4><a href="https://esolangs.org/wiki/WordLang">WordLang</a></h4><p>WordLang is an esoteric programming language designed in December 2019 by William Rågstad with a meaning-like grammar that produces a deterministic output. It is meant to be a challenge for intelligent programmers, to produce programs which are also fully legible sentences and texts. Writing a program in WordLang requires a lot of mental calculation and early planning.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 ## Example
 
