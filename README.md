@@ -63,6 +63,10 @@ Every time the ASCII character of the data value is printed *(using `.`)*, the v
 | --------------- | ----------- |
 | File extensions | .w, .wl     |
 
+## Wiki
+<blockquote class="embedly-card"><h4><a href="https://esolangs.org/wiki/WordLang">WordLang</a></h4><p>WordLang is an esoteric programming language designed in December 2019 by William Rågstad with a meaning-like grammar that produces a deterministic output. It is meant to be a challenge for intelligent programmers, to produce programs which are also fully legible sentences and texts. Writing a program in WordLang requires a lot of mental calculation and early planning.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 ## Example
 
 ### 1. Hello world
