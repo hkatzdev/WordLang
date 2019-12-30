@@ -67,10 +67,12 @@ Every time the ASCII character of the data value is printed *(using `.`)*, the v
 
 ## Example
 
-### 1. Hello world
+### 1. Helloo, world.
+
+This does not print hello world, just the result of the phrase if it's interpreted using WordLang.
 
 ```
-Helloo, world. :3
+Helloo, world.
 ```
 
 Output: `;`
@@ -84,7 +86,7 @@ Output: `;`
 7. ...
 8. . → Print the character of the data value to screen
 
-### 2. Single-Input
+### 2. [Cat program](https://esolangs.org/wiki/Cat_program) (Single-Input)
 
 ```
 I.=.<>I		"Read and store input in I"
