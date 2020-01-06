@@ -43,7 +43,7 @@ Would it even be possible to create a [Quine](https://esolangs.org/wiki/Quine) o
 | [name]**!**   | Jump to named point.                   |
 |     [name]**!!**      | Jump to the named point **if data value is 0**.              |
 |     [name]**!!!**     | Jump to the named point **if data value is NOT 0**.          |
-| **(**[code]**)** | Convert the result of the parentheses as a character instead of a number. |
+| **(**[code]**)** | Convert the result inside the parentheses to a number instead of a character. |
 | **"**[comment]**"** | Comment.                                                     |
 | *[space/tab/newline]* | Ignored.                                                     |
 | **\\**[escaped] | Any special character is escaped using `\`.                  |
