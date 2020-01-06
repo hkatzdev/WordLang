@@ -140,3 +140,24 @@ dcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! ▼▲↔�
 
 > **Disclaimer**
 > This example is just as the previous example... It defeats the purpose of WordLang, but now it's just for the sake of understanding.
+
+### 4. CTF Flag
+
+```
+Hello there, mister, A,T. Would you like to dance with all of us, it would be, varry appreciated. A mean great deal young man g,l so would say.
+But no one ever answered him on that, so that made him feel sorrow, but in the end, what does m,%.
+Therefore the man leaved without D, z,.
+
+This is a large flat > buffer - John
+Agreed the space ('buffer'), is not small.
+But, 'buffer' > buffer was cleared again and again, just until the 'buffer' was, empty?,.
+Nothing was never the same again pas the normal, the difference was so small and unsignificant 'buffer'
+"Run" John!!! Shouted Sherlock (Holmes)
+
+But in the end 8, everything was fine.
+```
+Output:
+
+```
+flag{3100µ¢4173µÎ3575µú2977µ'2379µS1781µ⌂2052}
+```
