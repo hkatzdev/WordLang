@@ -161,3 +161,32 @@ Output:
 ```
 flag{3100µ¢4173µÎ3575µú2977µ'2379µS1781µ⌂2052}
 ```
+
+## Poems
+
+> ### Let's live
+> With death being the only certainty of life, life is just a bit too short for regrets.
+> Let's live, while we're alive.
+> Let's love, while we're alive.
+> Let's live, and not just survive.
+> 
+> Output:
+> `LÄ;Ù`
+
+> ### Camouflaged
+> In all chaotic beauty lies a wounded work of art.
+> Beautiful but torn, wreaking havoc on my heart.
+> Camouflaged by insecurities, blinded by it all.
+> I love the way you sit there and barely notice me at all.
+> 
+> Output:
+> `Hlt|`
+
+> ### Someday
+> Someday you will cry for me
+> Like I cried for you.
+> Someday you'll miss me
+> Like I missed you.
+> 
+> Output:
+> `Ö3`
