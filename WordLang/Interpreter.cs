@@ -153,10 +153,10 @@ namespace WordLang
                                 i = backPoints[name];
                                 break;
                             case 2:
-                                if (DataValue == 0) i = backPoints[name];
+                                if (DataValue < 0) i = backPoints[name];
                                 break;
                             case 3:
-                                if (DataValue != 0) i = backPoints[name];
+                                if (DataValue > 0) i = backPoints[name];
                                 break;
                         }
                     }
